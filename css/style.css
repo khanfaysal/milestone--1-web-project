@@ -9,9 +9,11 @@ body{
 section{
     height: 500px;
 }
+
 .span{
     color: #FF8367;
 }
+
 .h2-class{ 
     font-family: 'Bebas Neue', cursive;
     font-size: 48px;
@@ -21,15 +23,19 @@ section{
     padding-left: 2%;
     text-align: center;
 } 
+
 p{
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-weight: 400; 
 }
+
 img{
     width: 100%;
 }
+
 /* topbanner css code */
+
 
 #topbanner-section{
     margin: 100px 50px;
@@ -41,15 +47,19 @@ img{
     padding-left: 2%;
 
 }
-/* .half-part img{
-    width: 100%;
-} */
 .half-part h1{
     font-family: 'Bebas Neue', cursive;
     font-size: 80px;
     font-weight: 500;
     line-height: 78px;
     padding-top: 40px;
+    color: #363958;
+   
+}
+.half-part h2{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 48px;
+    font-weight: 500;
     color: #363958;
    
 }
@@ -66,18 +76,14 @@ img{
 
 /* about section css code */
 #about-section{
-    /* margin: 50px; */
+
 }
 
 /* skill css code */
 #skill{
-    margin: 0px 0px 300px 0px;
-      
+  
+    margin: 0px 0px 300px 0px;    
 }
-/* #skill h2{
-    margin-left: 5%;
-    padding-left: 2%;
-} */
 .experience-part{
     width: 25%;
     float: left;
@@ -109,9 +115,9 @@ img{
     padding: 0px 30px 10px 100px;
 }
 
-
+/* latest project css code */
 #project-section{
-    margin: 0px 0px 300px 0px;
+    margin: 0px 0px 200px 0px;
 }
 .project-part{
     width: 25%;
@@ -126,10 +132,8 @@ img{
     background: white;
 }
 
-
-
-#newsletter-wrapper{
-   
+/* newsletter css code */
+#newsletter-wrapper{  
 }
 .newsletter-box{
     box-shadow: 10px 10px 40px lightgray;
@@ -138,13 +142,12 @@ img{
     height: 25%;
     background: url(../images/Group_33094_1.png);
     background-size: cover;
-    margin: 20%;
+    margin: auto;
     padding: 3%;
 }
 .newsletter-content{
     float: left;
-    width: 50%;
-    
+    width: 50%;  
 }
 .newsletter-content h2{
     font-family: 'Bebas Neue', cursive;
