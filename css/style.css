@@ -1,46 +1,57 @@
 /* universal css code for website */
 body{
     margin: 0;
-    padding: 0;
     font-family: 'Bebas Neue', cursive;
     font-family: 'Roboto', sans-serif;
-    overflow-x: hidden;
+    /* overflow-x: hidden;  */
 }
-/* section{ */
+
+section{
     height: 500px;
 }
-h1{
-    font-family: 'Bebas Neue', cursive;
-    font-size: 80px;
-    font-weight: 500;
-}
-.h1-highlight{
+.span{
     color: #FF8367;
 }
+.h2-class{ 
+    font-family: 'Bebas Neue', cursive;
+    font-size: 48px;
+    font-weight: 500;
+    color: #363958;
+    margin-left: 5%;
+    padding-left: 2%;
+    text-align: center;
+} 
 p{
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-weight: 400; 
 }
+img{
+    width: 100%;
+}
 /* topbanner css code */
 
 #topbanner-section{
-    margin: 120px 40px;
+    margin: 100px 50px;
 }
 .half-part{
     width: 40%;
     float: left;
     margin-left: 5%;
+    padding-left: 2%;
 
 }
-.half-part img{
+/* .half-part img{
     width: 100%;
-}
+} */
 .half-part h1{
     font-family: 'Bebas Neue', cursive;
     font-size: 80px;
     font-weight: 500;
     line-height: 78px;
+    padding-top: 40px;
+    color: #363958;
+   
 }
 .half-part p{
     padding-bottom: 30px;
@@ -52,3 +63,108 @@ p{
     border-radius: 5px;
     color: #ffffff;
 }
+
+/* about section css code */
+#about-section{
+    /* margin: 50px; */
+}
+
+/* skill css code */
+#skill{
+    margin: 0px 0px 300px 0px;
+      
+}
+/* #skill h2{
+    margin-left: 5%;
+    padding-left: 2%;
+} */
+.experience-part{
+    width: 25%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.experience-part h3{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 35px;
+    font-weight:500;
+    color: #F46060;
+}
+.experience-part h4{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    font-weight:600;
+}
+.experience-part p{
+    padding-bottom: 30px;
+}
+ .skill-img{
+    float:left;
+    margin-left: 5%;        
+}
+.skill-img img{
+    padding: 30px 0px 0px 40px;
+}
+.skill-img h3{
+    padding: 0px 30px 10px 100px;
+}
+
+
+#project-section{
+    margin: 0px 0px 300px 0px;
+}
+.project-part{
+    width: 25%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.box-wrappar{
+    box-shadow: 10px 10px 40px lightgray;
+    border-radius: 5px;
+    height: 70%;
+    background: white;
+}
+
+
+
+#newsletter-wrapper{
+   
+}
+.newsletter-box{
+    box-shadow: 10px 10px 40px lightgray;
+    border-radius: 15px;
+    width: 50%;
+    height: 25%;
+    background: url(../images/Group_33094_1.png);
+    background-size: cover;
+    margin: 20%;
+    padding: 3%;
+}
+.newsletter-content{
+    float: left;
+    width: 50%;
+    
+}
+.newsletter-content h2{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
+    font-weight: 500;
+    color: #ffffff; 
+}
+.newsletter-button{
+    text-decoration: none;
+    background-image: linear-gradient(#F46060 , #FF8367);
+    padding: 20px 35px;
+    border-radius: 5px;
+    color: #ffffff;
+    
+}
+
+
+
+
+
+
+
+
